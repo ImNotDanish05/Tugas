@@ -214,6 +214,9 @@
         <mxCell id="n6H_X3GBwL3MHe2G4VUo-22" value="Selesai" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-90" y="600" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="n6H_X3GBwL3MHe2G4VUo-24" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
