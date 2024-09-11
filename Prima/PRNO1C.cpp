@@ -1,4 +1,5 @@
 //Buat penjumlahan prima
+//Sama kayak versi A, tapi inputnya adalah batasan prima
 
 #include <iostream>
 #include <vector>
@@ -26,12 +27,12 @@ int main(){ // 1 == TRUE 0 == FALSE
     vector<int> CPrima, CBPrima;
     bool Prima;
     cout << "Menghitung penjumlahan prima" << endl;
-    cout << "Berapa banyak untuk menjumlah: ";
+    cout << "Maksimal prima: ";
     cin >> Counter;
     
     Result = 2;
     Add = 3;
-    for (int i = 0; i < Counter; i++){
+    for (int i = 0; Add < Counter; i++){
         if(PrimaChecker(Add)){
             if(Rules.proses){
             cout << "Prima: " << Add << endl;
