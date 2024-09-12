@@ -8,8 +8,8 @@ using namespace std;
 
 struct Settings{
     bool proses = false;
-    bool show_prima = true;
-    bool show_notprima = true;
+    bool show_prima = false;
+    bool show_notprima = false;
 };
 
 bool PrimaChecker(int x){

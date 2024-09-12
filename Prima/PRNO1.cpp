@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <vector>
-#include <string>   
+#include <string>
 using namespace std;
 
 struct Settings{
@@ -10,7 +10,6 @@ struct Settings{
     bool show_prima = true;
     bool show_notprima = true;
 };
-
 
 bool PrimaChecker(int x){
     for (int i = 2; i < x ; i++ ){
