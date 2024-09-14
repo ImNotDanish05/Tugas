@@ -1,9 +1,125 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
   <diagram name="Halaman-1" id="OW8h6F2-6fGmZB3ih_YP">
-    <mxGraphModel>
+    <mxGraphModel dx="962" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTTOqw886Nq_rb1zC2XY-1" target="PTTOqw886Nq_rb1zC2XY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-5">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-4" value="Fahrenheit = Celcius x 9/5 + 32" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-5">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-7" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-9">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-8" value="Masukkan nilai Celcius" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-9">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="374" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-10" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-12">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PTTOqw886Nq_rb1zC2XY-12" source="PTTOqw886Nq_rb1zC2XY-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="176" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PTTOqw886Nq_rb1zC2XY-12" source="PTTOqw886Nq_rb1zC2XY-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-74" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-11" value="Opsi adalah &#39;f&#39;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-12">
+          <mxGeometry x="10" y="25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="354" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-14" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-13">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-15" value="Masukkan Opsi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-13">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTTOqw886Nq_rb1zC2XY-7" target="PTTOqw886Nq_rb1zC2XY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTTOqw886Nq_rb1zC2XY-14" target="PTTOqw886Nq_rb1zC2XY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-22">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-24" value="Reamur = Celcius x 4/5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-22">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-29" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-28">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-30" value="Mengeluarkan&lt;div&gt;Nilai Reamur&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-28">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-33" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-32">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-34" value="Mengeluarkan Nilai Fahrentheit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-32">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PTTOqw886Nq_rb1zC2XY-23" target="PTTOqw886Nq_rb1zC2XY-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTTOqw886Nq_rb1zC2XY-3" target="PTTOqw886Nq_rb1zC2XY-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="354" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-39">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-2" value="Mulai" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-39">
+          <mxGeometry x="30" y="25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-40" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="354" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-41" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-40">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-42" value="Selesai" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PTTOqw886Nq_rb1zC2XY-40">
+          <mxGeometry x="30" y="25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTTOqw886Nq_rb1zC2XY-33" target="PTTOqw886Nq_rb1zC2XY-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTTOqw886Nq_rb1zC2XY-29" target="PTTOqw886Nq_rb1zC2XY-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
