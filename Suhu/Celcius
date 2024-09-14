@@ -120,6 +120,12 @@
         <mxCell id="PTTOqw886Nq_rb1zC2XY-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTTOqw886Nq_rb1zC2XY-29" target="PTTOqw886Nq_rb1zC2XY-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-47" value="Ya" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTTOqw886Nq_rb1zC2XY-48" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
