@@ -136,7 +136,7 @@
         <mxCell id="e2IvokpkZJgBXwaijT4H-137" value="Memesan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e2IvokpkZJgBXwaijT4H-135">
           <mxGeometry x="10" y="25" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e2IvokpkZJgBXwaijT4H-140" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="e2IvokpkZJgBXwaijT4H-140" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="240" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e2IvokpkZJgBXwaijT4H-154" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -496,7 +496,7 @@
         <mxCell id="e2IvokpkZJgBXwaijT4H-202" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="740" y="300" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e2IvokpkZJgBXwaijT4H-204" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="e2IvokpkZJgBXwaijT4H-204" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="680" y="370" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e2IvokpkZJgBXwaijT4H-205" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
