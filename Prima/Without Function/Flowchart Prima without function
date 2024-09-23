@@ -91,7 +91,7 @@
         <mxCell id="qN_jO417wpw1V_X3wdO2-29" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="qN_jO417wpw1V_X3wdO2-28">
           <mxGeometry width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qN_jO417wpw1V_X3wdO2-30" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qN_jO417wpw1V_X3wdO2-28">
+        <mxCell id="qN_jO417wpw1V_X3wdO2-30" value="j &amp;lt; Add" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qN_jO417wpw1V_X3wdO2-28">
           <mxGeometry x="10" y="25" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qN_jO417wpw1V_X3wdO2-31" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -102,6 +102,9 @@
         </mxCell>
         <mxCell id="qN_jO417wpw1V_X3wdO2-33" value="j = 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qN_jO417wpw1V_X3wdO2-31">
           <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qN_jO417wpw1V_X3wdO2-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qN_jO417wpw1V_X3wdO2-14" target="qN_jO417wpw1V_X3wdO2-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
