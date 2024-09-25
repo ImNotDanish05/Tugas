@@ -64,7 +64,7 @@
         <mxCell id="BQohFC1vAqYYFcBqb6Ue-12" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BQohFC1vAqYYFcBqb6Ue-11">
           <mxGeometry width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BQohFC1vAqYYFcBqb6Ue-13" value="Memiliki" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BQohFC1vAqYYFcBqb6Ue-11">
+        <mxCell id="BQohFC1vAqYYFcBqb6Ue-13" value="ditugaskan ke" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BQohFC1vAqYYFcBqb6Ue-11">
           <mxGeometry x="10" y="25" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BQohFC1vAqYYFcBqb6Ue-15" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -73,7 +73,7 @@
         <mxCell id="BQohFC1vAqYYFcBqb6Ue-16" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BQohFC1vAqYYFcBqb6Ue-15">
           <mxGeometry width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BQohFC1vAqYYFcBqb6Ue-17" value="Memiliki" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BQohFC1vAqYYFcBqb6Ue-15">
+        <mxCell id="BQohFC1vAqYYFcBqb6Ue-17" value="Bekerja pada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BQohFC1vAqYYFcBqb6Ue-15">
           <mxGeometry x="10" y="25" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BQohFC1vAqYYFcBqb6Ue-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BQohFC1vAqYYFcBqb6Ue-6" target="Tdht6oy-zOX9z7NCY2ZI-11">
