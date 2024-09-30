@@ -13,5 +13,6 @@ int main(){
     cout << "Celcius: " << c << endl;
     cout << "Reamur: " << r << endl;
     cout << "Fahrenheit: " << f << endl;
+    cout << " " << endl;
     return 0;
 }
