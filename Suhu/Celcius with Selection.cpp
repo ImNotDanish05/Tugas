@@ -42,9 +42,9 @@ int main(){
 
     do {
         cout << "=== Selection Output Type ===" << endl;
-        cout << "1 - Celcius" << endl;
-        cout << "2 - Fahrentheit" << endl;
-        cout << "3 - Reamur" << endl;
+        cout << "1/C - Celcius" << endl;
+        cout << "2/F - Fahrentheit" << endl;
+        cout << "3/R - Reamur" << endl;
         cout << "Satuan apa untuk output?" << endl;
         cout << "Output: ";
         cin >> so;
@@ -52,7 +52,7 @@ int main(){
         // Cek apakah input valid
         if (so < 1 || so > 3) {
             PerfectLine();
-            cout << "Input tidak valid. Silakan pilih tipe input yang benar (1-3)." << endl;
+            cout << "Input tidak valid. Silakan pilih tipe input yang benar. Tolong hanya pilih diantara 1 hingga 3" << endl;
         }
 
     } while (so < 1 || so > 3);  // Jika tidak valid, ulangi lagi.

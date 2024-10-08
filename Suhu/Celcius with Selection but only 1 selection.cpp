@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <limits>
 
 using namespace std;
 
@@ -12,32 +13,51 @@ void PerfectLine(){
 int main(){
     /*
     si = Tipe Input
-    so = Tipe Output
-
     i = Input
-    o = Output
     */
     double i, j, k;
     int si;
+    bool check;
+    PerfectLine();
+    cout << "SELAMAT DATANG DI KONVERSI SUHU" << endl;
+    do{
+    cout << "Masukan angka di sini untuk dihitung" << endl;
     cout << "Input: ";
     cin >> i;
+    check = cin.fail();
+    if(check) {
+            cin.clear(); // Menghapus error flag
+            cin.ignore(numeric_limits<std::streamsize>::max(), '\n'); // Mengabaikan karakter yang salah
+            PerfectLine();
+            cout << "Rak sah aneh-aneh, masuke angka wae" << endl;
+        }
+    } while (check);
     PerfectLine();
+    check = false;
     do {
         cout << "=== Selection Input Type ===" << endl;
         cout << "1 - Celcius" << endl;
         cout << "2 - Fahrentheit" << endl;
         cout << "3 - Reamur" << endl;
+        cout << "0 - Exit" << endl;
         cout << "Satuan apa untuk output?" << endl;
         cout << "Input: ";
         cin >> si;
-
+        check = cin.fail();
         // Cek apakah input valid
-        if (si < 1 || si > 3) {
+        if (check) {
+            cin.clear();
+            cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
             PerfectLine();
-            cout << "Input tidak valid. Silakan pilih tipe input yang benar (1-3)." << endl;
+            cout << "Rak sah aneh2, masuke angka wae" << endl;
+        }else if (si == 0){
+            break;
+        }else if (si < 1 || si > 3){
+            PerfectLine();
+            cout << "Input tidak valid. Silakan pilih tipe input yang benar (0-3)." << endl;
         }
 
-    } while (si < 1 || si > 3);  // Jika tidak valid, ulangi lagi.
+    } while (si < 0 || si > 3 || check );  // Jika tidak valid, ulangi lagi.
     PerfectLine();
 
     if (si == 1) { // Jika input Celcius
@@ -59,9 +79,10 @@ int main(){
         cout << "Reamur : " << fixed << setprecision(2) << i << endl;
         cout << "Celcius : " << fixed << setprecision(2) << j << endl;
         cout << "Fahrenheit : " << fixed << setprecision(2) << k << endl;
+    } else if (si == 0){
+        cout << "Program Ditutup" << endl;
     }
 
     // Tampilkan hasil
-    PerfectLine();
     return 0;
 }
