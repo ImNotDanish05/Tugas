@@ -1,0 +1,122 @@
+### Daftar Warna pada `textcolor`
+Kode warna pada `textcolor` di Pascal digunakan untuk mengatur warna teks di konsol. Pastikan unit `crt` diaktifkan untuk menggunakan fitur ini.  
+
+| Kode | Warna          | Kode | Warna          |
+|------|----------------|------|----------------|
+| 0    | Black          | 8    | Dark Gray      |
+| 1    | Blue           | 9    | Light Blue     |
+| 2    | Green          | 10   | Light Green    |
+| 3    | Cyan           | 11   | Light Cyan     |
+| 4    | Red            | 12   | Light Red      |
+| 5    | Magenta        | 13   | Light Magenta  |
+| 6    | Brown          | 14   | Yellow         |
+| 7    | Light Gray     | 15   | White          |
+
+Contoh penggunaan:  
+```pascal
+textcolor(12); { Mengubah teks menjadi warna Light Red }
+write('Teks ini berwarna merah muda!');
+```
+
+---
+
+### Tipe-Tipe Value di Pascal
+
+Berikut tipe data yang sering digunakan di Pascal:  
+
+#### **Tipe Numerik (Angka)**
+1. **`integer`**
+   - Angka bulat, rentang tergantung sistem (biasanya -32,768 hingga 32,767).  
+   - Contoh: `123`, `-456`.  
+
+2. **`longint`**
+   - Angka bulat dengan rentang lebih besar (-2 milyar hingga 2 milyar).  
+
+3. **`real`**
+   - Angka desimal untuk perhitungan dengan koma (floating-point).  
+   - Contoh: `3.14`, `-0.001`.  
+
+4. **`byte`**
+   - Angka bulat positif, rentang 0 hingga 255.  
+
+5. **`word`**
+   - Angka bulat positif, rentang 0 hingga 65,535.  
+
+---
+
+#### **Tipe Boolean**
+- Tipe logika, hanya memiliki dua nilai: `true` atau `false`.  
+- Contoh penggunaan:  
+  ```pascal
+  var x: boolean;
+  begin
+    x := true;
+    if x then writeln('Benar!') else writeln('Salah!');
+  end;
+  ```
+
+---
+
+#### **Tipe Karakter dan Teks**
+1. **`char`**
+   - Satu karakter tunggal (huruf, angka, atau simbol).  
+   - Contoh: `'A'`, `'1'`, `'#'`.  
+
+2. **`string`**
+   - Sekumpulan karakter (teks). Panjang maksimum biasanya 255 karakter.  
+   - Contoh: `'Hello, world!'`.  
+
+---
+
+#### **Tipe Struktur**
+1. **`array`**
+   - Kumpulan data dengan tipe yang sama, diakses melalui indeks.  
+   - Contoh:  
+     ```pascal
+     var arr: array[1..5] of integer;
+     arr[1] := 10; { Mengisi indeks pertama dengan nilai 10 }
+     ```
+
+2. **`record`**
+   - Struktur data untuk menyimpan data dengan tipe berbeda.  
+   - Contoh:  
+     ```pascal
+     type
+       TPerson = record
+         Name: string;
+         Age: integer;
+       end;
+     var person: TPerson;
+     begin
+       person.Name := 'Danish';
+       person.Age := 18;
+     end;
+     ```
+
+---
+
+#### **Tipe Lainnya**
+1. **`pointer`**
+   - Menyimpan alamat memori. Biasanya untuk pemrograman tingkat lanjut.  
+
+2. **`enumeration`**
+   - Kumpulan nilai tetap yang terurut.  
+   - Contoh:  
+     ```pascal
+     type
+       Days = (Monday, Tuesday, Wednesday);
+     var today: Days;
+     begin
+       today := Monday;
+     end;
+     ```
+
+3. **`set`**
+   - Kumpulan nilai unik.  
+   - Contoh:  
+     ```pascal
+     var vowels: set of char;
+     vowels := ['a', 'e', 'i', 'o', 'u'];
+     ```  
+
+Semua tipe ini fleksibel digunakan tergantung kebutuhan program!
